@@ -14,6 +14,7 @@ public class Menu {
     Service service = new Service();
     Request request;
     Double cantidad;
+    Integer opcion;
     public void banner() {
         System.out.println("----------------------------------------");
         System.out.println("Bienvenid@ al Conversor de Monedas");
@@ -39,7 +40,7 @@ public class Menu {
 
     public int controlarEntrada(){
         System.out.print("Ingrese una opción: ");
-        int opcion = scan.nextInt();
+         opcion = scan.nextInt();
         return opcion;
     }
 
@@ -53,7 +54,7 @@ public class Menu {
 
     public void verificarConversion(String origen, String codigo_conversion){
         request = service.consult(origen);
-        System.out.print("Ingrese la cantidad de dolares a convertir: ");
+        System.out.print("Ingrese la cantidad de dinero a convertir: ");
         cantidad = scan.nextDouble();
         if (cantidad>0){
             System.out.println(verificarMoneda(codigo_conversion, cantidad, request));
@@ -63,7 +64,7 @@ public class Menu {
     }
 
     public void controlarOpciones(){
-        int opcion = controlarEntrada();
+        opcion = controlarEntrada();
         while(opcion != 10){
             switch (opcion){
                 case 1:

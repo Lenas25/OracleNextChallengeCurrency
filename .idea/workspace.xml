@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f35b7450-7810-426d-9913-b914ce10476d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/challenge/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/challenge/dto/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/challenge/modelos/Moneda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/challenge/service/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/challenge/vista/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChallengeConversorMonedas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ChallengeConversorMonedas.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/challenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/challenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/challenge/modelos/Moneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/challenge/modelos/Moneda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/challenge/vista/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/challenge/vista/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +36,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2mXaO92by9teE1DWEeqTLvpyWkk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -62,11 +58,12 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/GIGABYTE/repos/OracleNextEducation/ChallengeConversorMonedas/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -90,7 +87,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727225344590</updated>
-      <workItem from="1727225345721" duration="8961000" />
+      <workItem from="1727225345721" duration="9319000" />
+      <workItem from="1727273201465" duration="1544000" />
     </task>
     <servers />
   </component>

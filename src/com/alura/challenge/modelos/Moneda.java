@@ -50,7 +50,7 @@ public class Moneda {
                 .append("\nMoneda Ingresada: ").append("\nCodigo - ").append(code).append(
                         "\nMonto a convertir - ").append(amount)
                 .append("\nMoneda Convertida:").append("\nCodigo - ").append(monedaConvertida.getCode()).append("\nMonto " +
-                        "a convertir - ").append(String.format("%2f",monedaConvertida.getAmount()))
+                        "a convertir - ").append(String.format("%.2f",monedaConvertida.getAmount()))
                 .append("\nFecha de Conversion: ").append(horaRegistro).append("\n--------------");
         return str.toString();
 
