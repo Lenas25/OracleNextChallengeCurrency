@@ -13,7 +13,7 @@ This project is part of Oracle Next Education Program, in this course we are cha
   <br><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F10</kbd>
 
 ## ✅ Technologies
-- Java
+- Java (POO and Record Classes)
 - APIs
 - Postman
 - Gson Library
